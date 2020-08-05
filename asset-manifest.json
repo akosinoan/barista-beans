@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/barista-beans/static/css/main.d7101303.chunk.css",
+    "main.js": "/barista-beans/static/js/main.ce78892a.chunk.js",
+    "main.js.map": "/barista-beans/static/js/main.ce78892a.chunk.js.map",
+    "runtime-main.js": "/barista-beans/static/js/runtime-main.dfd79028.js",
+    "runtime-main.js.map": "/barista-beans/static/js/runtime-main.dfd79028.js.map",
+    "static/js/2.c4cb37b9.chunk.js": "/barista-beans/static/js/2.c4cb37b9.chunk.js",
+    "static/js/2.c4cb37b9.chunk.js.map": "/barista-beans/static/js/2.c4cb37b9.chunk.js.map",
+    "index.html": "/barista-beans/index.html",
+    "precache-manifest.17070ca78d8635245ca8a8fa875f2581.js": "/barista-beans/precache-manifest.17070ca78d8635245ca8a8fa875f2581.js",
+    "service-worker.js": "/barista-beans/service-worker.js",
+    "static/css/main.d7101303.chunk.css.map": "/barista-beans/static/css/main.d7101303.chunk.css.map",
+    "static/js/2.c4cb37b9.chunk.js.LICENSE.txt": "/barista-beans/static/js/2.c4cb37b9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dfd79028.js",
+    "static/js/2.c4cb37b9.chunk.js",
+    "static/css/main.d7101303.chunk.css",
+    "static/js/main.ce78892a.chunk.js"
+  ]
+}
