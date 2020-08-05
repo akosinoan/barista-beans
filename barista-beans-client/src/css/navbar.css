@@ -1,0 +1,29 @@
+.NavBar-container{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    
+    background-color: #222;
+    
+}
+.NavLinks{
+   padding: 1.5em 1em 0 1em;
+   color: whitesmoke;
+   position: -webkit-sticky; /* Safari */
+   position:sticky;
+   top:0;
+}
+.NavLinks a{
+    padding: 0.5em 1em 0.5em 1em;   
+    cursor: pointer;
+}
+.NavLinks a:hover{
+    background-color: #333;
+    transition: background-color .2s;
+}
+
+
+
+.NavBarlogo{
+    min-width: 200px;
+}
