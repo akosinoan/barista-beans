@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "327cf85404ba909a6816af31c7e4a44a",
+    "revision": "b631c20dd13b5ee183636ecc0c0b9b3e",
     "url": "/barista-beans/index.html"
   },
   {
-    "revision": "dd76fcf5d602eaa9942b",
-    "url": "/barista-beans/static/css/main.d7101303.chunk.css"
+    "revision": "53805ded450be6629d66",
+    "url": "/barista-beans/static/css/main.5c1d1f50.chunk.css"
   },
   {
     "revision": "91640cee6554b16cc3c4",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/barista-beans/static/js/2.c4cb37b9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dd76fcf5d602eaa9942b",
+    "revision": "53805ded450be6629d66",
     "url": "/barista-beans/static/js/main.ce78892a.chunk.js"
   },
   {
