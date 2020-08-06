@@ -24,7 +24,7 @@ html, body{
     flex-flow: row wrap;
     justify-content: center;
     background-color: antiquewhite;
-    height:100%;
+    
 }
 .product-image{
     height: 100px;
