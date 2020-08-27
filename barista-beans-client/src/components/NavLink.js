@@ -3,7 +3,7 @@ import React from 'react';
 
 function NavLink(props) {
   return (
-        <a > {props.name} </a>
+        <a className={props.isActive}> {props.name} </a>
   );
 }
 

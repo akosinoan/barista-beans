@@ -1,29 +1,34 @@
 .NavBar-container{
-    display: flex;
+    display:flex;
+    flex-flow: column wrap;
     justify-content: center;
-    padding: 1em;
-    
     background-color: #222;
-    
+    height:30%  
 }
+.NavBarlogo{
+    margin:auto;
+}
+.NavBarlogo img{
+    display:block;
+    width:100%;
+    max-width:250px;
+    height:auto;
+    width:auto;
+}
+
 .NavLinks{
-   padding: 1.5em 1em 0 1em;
    color: whitesmoke;
-   position: -webkit-sticky; /* Safari */
-   position:sticky;
-   top:0;
+   margin:auto;
 }
 .NavLinks a{
-    padding: 0.5em 1em 0.5em 1em;   
+    padding: 1em;
     cursor: pointer;
 }
-.NavLinks a:hover{
-    background-color: #333;
-    transition: background-color .2s;
+
+.NavLinks a:active , .nav-active{
+    background-color: #555;
+    
 }
 
 
 
-.NavBarlogo{
-    min-width: 200px;
-}

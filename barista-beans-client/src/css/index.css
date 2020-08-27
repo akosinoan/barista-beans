@@ -4,7 +4,6 @@
 }
 html, body{
     height:100%;
-    min-width: 300px;
    
 }
 .root{
@@ -19,6 +18,10 @@ html, body{
     background-color: maroon;
     justify-content: center;
     flex-direction: column;
+    flex-grow:1;
+    overflow: auto;
+    
+    height:70%
 }
 
 .product-list{
@@ -26,27 +29,32 @@ html, body{
     flex-flow: row wrap;
     justify-content: center;
     background-color: antiquewhite;
-    height:100%;
+    max-width:60em;
+    margin:auto;
 }
-.product-image{
-    height: 100px;
-    width: 100px;
-    justify-content: center;
-}
-.product-container{
-    max-height:12em;
-    flex-flow: column;
+
+.product-container{    
+    flex-flow: column wrap;
     text-align: center;
     border: 2px solid #999;
     border-radius: 5px;
     background-color: aliceblue;
-    margin :0.5em;
-    padding :0.5em;
+    margin :1em;
+    padding: 1em;   
+}
+.product-image{
+    height: 10em;
+    width: 10em;
+    margin:auto;
 }
 
 .footer-container{
+    height:10%;
+    width: 100%;
     display: flex;
+    flex-flow:column nowrap;
     justify-content: center;
-    padding: 2em;
-    
+    align-items:center;
+    background-color: #222;
+    color: whitesmoke;
 }
