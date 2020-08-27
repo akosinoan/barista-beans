@@ -1,24 +1,20 @@
 .NavBar-container{
     display:flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: center;
-    background-color: #222;
-    height:30%  
+    background-color: #222; 
+    
 }
 .NavBarlogo{
-    margin:auto;
+    margin: 0 auto;
 }
 .NavBarlogo img{
-    display:block;
-    width:100%;
-    max-width:250px;
-    height:auto;
-    width:auto;
+    max-width:13em;
 }
 
 .NavLinks{
    color: whitesmoke;
-   margin:auto;
+   margin: 0.5em auto;
 }
 .NavLinks a{
     padding: 1em;
