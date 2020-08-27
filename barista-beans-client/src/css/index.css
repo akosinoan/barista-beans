@@ -52,9 +52,22 @@ html, body{
     height:10%;
     width: 100%;
     display: flex;
-    flex-flow:column nowrap;
+    flex-flow:row nowrap;
     justify-content: center;
     align-items:center;
     background-color: #222;
     color: whitesmoke;
+}
+.footer-container a{
+    margin:auto 1em;
+}
+.facebook-logo{
+    height:40;
+    width:40;
+}
+.facebook-logo :hover{
+    cursor: pointer;
+}
+.facebook-fill{
+    fill: white;
 }
