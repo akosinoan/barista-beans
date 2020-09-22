@@ -1,37 +1,15 @@
 
 const productList = [
-    {name: `Arabica`,
-    price: `$$$`,
-    imgsrc: process.env.PUBLIC_URL + "/images/products/product-arabica.jpg" ,
-    },
-    {name: `Arabica Medium`,
-    price: `$$$`,
-    imgsrc: process.env.PUBLIC_URL + "/images/products/product-arabicamedium.jpg" ,
-    },
+    
     {name: `Barako`,
     price: `$$$`,
     imgsrc: process.env.PUBLIC_URL + "/images/products/product-barako.jpg" ,
-    },
-    {name: `Butterscotch`,
-    price: `$$$`,
-    imgsrc: process.env.PUBLIC_URL + "/images/products/product-butterscotch.jpg" ,
-    },
-    {name: `Espresso`,
-    price: `$$$`,
-    imgsrc: process.env.PUBLIC_URL + "/images/products/product-espresso.jpg" ,
     },
     {name: `Hazelnut`,
     price: `$$$`,
     imgsrc: process.env.PUBLIC_URL + "/images/products/product-hazelnut.jpg" ,
     },
-    {name: `Italian Roast`,
-    price: `$$$`,
-    imgsrc: process.env.PUBLIC_URL + "/images/products/product-italianroast.jpg" ,
-    },
-    {name: `Macadamia`,
-    price: `$$$`,
-    imgsrc: process.env.PUBLIC_URL + "/images/products/product-macadamia.jpg" ,
-    },
+    
     {name: `Mocha`,
     price: `$$$`,
     imgsrc: process.env.PUBLIC_URL + "/images/products/product-mocha.jpg" ,
@@ -40,10 +18,6 @@ const productList = [
     price: `$$$`,
     imgsrc: process.env.PUBLIC_URL + "/images/products/product-sagadadark.jpg" ,
     },
-    {name: `Vanilla`,
-    price: `$$$`,
-    imgsrc: process.env.PUBLIC_URL + "/images/products/product-vanilla.jpg" ,
-    },
-
+    
 ];
 export default productList;
