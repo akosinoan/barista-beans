@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/barista-beans/precache-manifest.e69b42947b164290652cfc60faae8f48.js"
+  "/barista-beans/precache-manifest.27dab09795c89158e2946ae12538c853.js"
 );
 
 self.addEventListener('message', (event) => {
