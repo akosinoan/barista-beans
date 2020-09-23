@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/barista-beans/static/css/main.64f7f1b5.chunk.css",
-    "main.js": "/barista-beans/static/js/main.16833a15.chunk.js",
-    "main.js.map": "/barista-beans/static/js/main.16833a15.chunk.js.map",
+    "main.js": "/barista-beans/static/js/main.f3d86734.chunk.js",
+    "main.js.map": "/barista-beans/static/js/main.f3d86734.chunk.js.map",
     "runtime-main.js": "/barista-beans/static/js/runtime-main.dfd79028.js",
     "runtime-main.js.map": "/barista-beans/static/js/runtime-main.dfd79028.js.map",
     "static/js/2.0ff4acc4.chunk.js": "/barista-beans/static/js/2.0ff4acc4.chunk.js",
     "static/js/2.0ff4acc4.chunk.js.map": "/barista-beans/static/js/2.0ff4acc4.chunk.js.map",
     "index.html": "/barista-beans/index.html",
-    "precache-manifest.27dab09795c89158e2946ae12538c853.js": "/barista-beans/precache-manifest.27dab09795c89158e2946ae12538c853.js",
+    "precache-manifest.e2ee8d11f6df6cfcc23fd03f4ea0814d.js": "/barista-beans/precache-manifest.e2ee8d11f6df6cfcc23fd03f4ea0814d.js",
     "service-worker.js": "/barista-beans/service-worker.js",
     "static/css/main.64f7f1b5.chunk.css.map": "/barista-beans/static/css/main.64f7f1b5.chunk.css.map",
     "static/js/2.0ff4acc4.chunk.js.LICENSE.txt": "/barista-beans/static/js/2.0ff4acc4.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.dfd79028.js",
     "static/js/2.0ff4acc4.chunk.js",
     "static/css/main.64f7f1b5.chunk.css",
-    "static/js/main.16833a15.chunk.js"
+    "static/js/main.f3d86734.chunk.js"
   ]
 }
