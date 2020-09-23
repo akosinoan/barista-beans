@@ -16,7 +16,7 @@ class ShopCart extends React.Component{
 
     render (){
 
-        const shopCartStyle = {
+        const shopCartMenuStyle = {
             position: 'fixed',
             right: 0,
             left: 'inherit',
@@ -31,11 +31,25 @@ class ShopCart extends React.Component{
             visibility: this.state.menuOpen ? 'visible' : 'hidden'
         };
 
+        const shopCartImgStyle = {
+            maxHeight:'2em',
+            margin:'2em'
+        }
+
         return (
-            <div className="ShopCart" style={shopCartStyle}>
+        <>
+           
+            <div > 
+            <img style={shopCartImgStyle}
+                    alt="Cart"
+                    src={process.env.PUBLIC_URL + "/images/shopcart.png"} />
+            </div>
+
+            <div className="ShopCart" style={shopCartMenuStyle}>
                 TESTS
                 
             </div>
+        </>
         );
     }
 }

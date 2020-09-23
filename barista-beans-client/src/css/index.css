@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: anton, sans-serif;
+   
 }
 html, body{
     height:100%;
@@ -15,37 +17,12 @@ html, body{
 .App{
     flex: 1 0 auto;
     padding: 0 2em 0 2em;
-    background-color: maroon;
+    
     justify-content: center;
     flex-direction: column;
     flex-grow:1;
-    overflow: auto;
-    
+    overflow: auto;   
     height:60%
-}
-
-.product-list{
-    display:flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    background-color: antiquewhite;
-    max-width:60em;
-    margin:auto;
-}
-
-.product-container{    
-    flex-flow: column wrap;
-    text-align: center;
-    border: 2px solid #999;
-    border-radius: 5px;
-    background-color: aliceblue;
-    margin :1em;
-    padding: 1em;   
-}
-.product-image{
-    height: 10em;
-    width: 10em;
-    margin:auto;
 }
 
 .footer-container{

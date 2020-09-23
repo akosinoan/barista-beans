@@ -1,0 +1,36 @@
+
+.product-list{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: rgb(250, 234, 214, 0.7);
+    border-radius: 0 0 20px 20px;
+    
+    max-width:60em;
+    margin:auto;
+    margin-bottom: 1em;
+}
+
+.product-container{    
+    flex-flow: column wrap;
+    text-align: center;
+   
+    border-radius: 1em;
+    background-color: aliceblue;
+    margin :1em;
+    padding: 1em;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+.product-name{
+    color: #f1b41b;
+    margin-bottom: 1em;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+}
+.product-image{
+    height: 10em;
+    width: 10em;
+    margin:auto;
+    border-radius: 0.5em;
+}

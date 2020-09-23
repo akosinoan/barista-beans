@@ -1,15 +1,14 @@
 .NavBar-container{
     display:flex;
-    flex-flow: column nowrap;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #222; 
     
 }
 .NavBarlogo{
-    margin: 0 auto;
+
 }
 .NavBarlogo img{
-    max-width:13em;
+    max-width:6em;
 }
 
 .NavLinks{
