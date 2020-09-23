@@ -1,9 +1,9 @@
 import React from 'react';
 import ProductList from './pages/ProductList'
 const appStyle= {
-  backgroundImage: `url(${process.env.PUBLIC_URL}/images/baristaBackground.jpg)` , 
+  backgroundImage: `url(${process.env.PUBLIC_URL}/images/baristaBackground.jpg)`  , 
   backgroundSize:'cover',
-  backgroundRepeat:'no-repeat'
+  bacgroundRepeat: 'no-repeat',
 }
 function App() {
   return (
