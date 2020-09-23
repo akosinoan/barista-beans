@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/barista-beans/static/css/main.ce970490.chunk.css",
-    "main.js": "/barista-beans/static/js/main.78349870.chunk.js",
-    "main.js.map": "/barista-beans/static/js/main.78349870.chunk.js.map",
+    "main.css": "/barista-beans/static/css/main.b3f00a86.chunk.css",
+    "main.js": "/barista-beans/static/js/main.16833a15.chunk.js",
+    "main.js.map": "/barista-beans/static/js/main.16833a15.chunk.js.map",
     "runtime-main.js": "/barista-beans/static/js/runtime-main.dfd79028.js",
     "runtime-main.js.map": "/barista-beans/static/js/runtime-main.dfd79028.js.map",
-    "static/js/2.c4cb37b9.chunk.js": "/barista-beans/static/js/2.c4cb37b9.chunk.js",
-    "static/js/2.c4cb37b9.chunk.js.map": "/barista-beans/static/js/2.c4cb37b9.chunk.js.map",
+    "static/js/2.0ff4acc4.chunk.js": "/barista-beans/static/js/2.0ff4acc4.chunk.js",
+    "static/js/2.0ff4acc4.chunk.js.map": "/barista-beans/static/js/2.0ff4acc4.chunk.js.map",
     "index.html": "/barista-beans/index.html",
-    "precache-manifest.b2c0bc496e0edab2165816479c3035b8.js": "/barista-beans/precache-manifest.b2c0bc496e0edab2165816479c3035b8.js",
+    "precache-manifest.e69b42947b164290652cfc60faae8f48.js": "/barista-beans/precache-manifest.e69b42947b164290652cfc60faae8f48.js",
     "service-worker.js": "/barista-beans/service-worker.js",
-    "static/css/main.ce970490.chunk.css.map": "/barista-beans/static/css/main.ce970490.chunk.css.map",
-    "static/js/2.c4cb37b9.chunk.js.LICENSE.txt": "/barista-beans/static/js/2.c4cb37b9.chunk.js.LICENSE.txt"
+    "static/css/main.b3f00a86.chunk.css.map": "/barista-beans/static/css/main.b3f00a86.chunk.css.map",
+    "static/js/2.0ff4acc4.chunk.js.LICENSE.txt": "/barista-beans/static/js/2.0ff4acc4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.dfd79028.js",
-    "static/js/2.c4cb37b9.chunk.js",
-    "static/css/main.ce970490.chunk.css",
-    "static/js/main.78349870.chunk.js"
+    "static/js/2.0ff4acc4.chunk.js",
+    "static/css/main.b3f00a86.chunk.css",
+    "static/js/main.16833a15.chunk.js"
   ]
 }
