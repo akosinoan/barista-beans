@@ -10,11 +10,33 @@ function ShopCart(props) {
     const {register , handleSubmit} = useForm();
 
     const onSubmit = (data) => {
+
       let formData = {...data};
       formData.cart = props.itemsInCart;
       
       console.log(formData);
-    };
+
+      
+      fetch(`http://192.168.0.18:5000/backend/createOrder` , {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json',
+          'mode': 'no-cors',
+        },
+        body: JSON.stringify({
+          formData
+        })
+      })
+      .then(response => response.json())
+      .then(data => {
+        console.log('Success:', data);
+      })
+      .catch((error) => {
+        console.error('Error:', error);
+      })
+    }
+  
 
     //const nodeRef = useRef(null);
     
