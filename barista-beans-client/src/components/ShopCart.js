@@ -87,15 +87,28 @@ function ShopCart(props) {
                     :
                       <div className="orderDetailContainer">
                        { props.itemsInCart.map((product)=>(
+                        
                         <h4>    
                             {product.name} x {product.quantity}pcs
                             <div> 
                               <button className="product-plus" onClick={(e)=>handleAddItem(e,product)}> + </button>
                               <button className="product-minus"onClick={(e)=>handleRemoveItem(e,product)}> - </button>
                             </div>
-                        </h4>    
+                        </h4>   
+                         
 
                         ))}
+                        <div style={{margin:'1em'}}>
+                          Total Price: {(props.cartItemCount > 1)? 
+                          <><span style={{color:'green'}}> {280 * props.cartItemCount} </span> 
+                            <span style={{color:'red'}}> - { props.cartItemCount * 30} </span><br/>
+                            <span style ={{color:'green'}}> <u><em>{props.cartItemCount * 250}</em></u> </span>  
+                          
+                          </>  
+                            : <span style={{color:'green'}} >280</span> 
+                          
+                          }
+                        </div>
                         <div style={{margin : '1em'}} >
                           <label> <h3>Grind Size: </h3>
                           <select ref ={register} name="grindsize">
@@ -108,7 +121,7 @@ function ShopCart(props) {
 
                           <textarea ref ={register} name="specialnote" placeholder="Special Note..." />
                           </div>
-                          <button>Submit</button>
+                          <button>Order</button>
                       </div>
                   }
  
